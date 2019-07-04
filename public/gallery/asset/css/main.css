@@ -701,27 +701,27 @@
 
 	::-webkit-input-placeholder {
 		opacity: 1.0;
-		color: rgba(34, 49, 63, 0.25);
+		color: black;
 	}
 
 	:-moz-placeholder {
 		opacity: 1.0;
-		color: rgba(34, 49, 63, 0.25);
+		color: black;
 	}
 
 	::-moz-placeholder {
 		opacity: 1.0;
-		color: rgba(34, 49, 63, 0.25);
+		color: black;
 	}
 
 	:-ms-input-placeholder {
 		opacity: 1.0;
-		color: rgba(34, 49, 63, 0.25);
+		color: black;
 	}
 
 	.formerize-placeholder {
 		opacity: 1.0;
-		color: rgba(34, 49, 63, 0.25);
+		color: black;
 	}
 
 /* Gallery */

@@ -542,16 +542,16 @@ input[type="radio"]:focus + label:before {
   box-shadow: 0 0 0 1px #ce1b28; }
 
 ::-webkit-input-placeholder {
-  color: #bbbbbb !important; }
+  color: rgb(63, 60, 60); }
 
 :-moz-placeholder {
-  color: #bbbbbb !important; }
+  color: rgb(63, 60, 60); }
 
 ::-moz-placeholder {
-  color: #bbbbbb !important; }
+  color: rgb(63, 60, 60) ; }
 
 :-ms-input-placeholder {
-  color: #bbbbbb !important; }
+  color: rgb(63, 60, 60) ; }
 
 /* List */
 ol {
@@ -2207,7 +2207,7 @@ ul.icons {
 /* Footer */
 #footer {
   background-color: #111111;
-  color: rgba(255, 255, 255, 0.5);
+  color: white;
   padding: 8rem 0 6rem 0 ; }
   #footer input, #footer select, #footer textarea {
     color: #ffffff; }
@@ -2223,7 +2223,7 @@ ul.icons {
     background: rgba(255, 255, 255, 0.075);
     border-color: rgba(255, 255, 255, 0.25); }
   #footer hr {
-    border-bottom-color: rgba(255, 255, 255, 0.25); }
+    border-bottom-color:black; }
   #footer input[type="submit"],
   #footer input[type="reset"],
   #footer input[type="button"],
@@ -2231,14 +2231,14 @@ ul.icons {
   #footer .button {
     background-color: transparent;
     box-shadow: inset 0 0 0 1px #ffffff;
-    color: #ffffff !important; }
+    color:black; }
     #footer input[type="submit"]:hover,
     #footer input[type="reset"]:hover,
     #footer input[type="button"]:hover,
     #footer button:hover,
     #footer .button:hover {
-      box-shadow: inset 0 0 0 1px #ce1b28;
-      color: #ce1b28 !important; }
+      box-shadow: inset 0 0 0 1px;
+       }
       #footer input[type="submit"]:hover:active,
       #footer input[type="reset"]:hover:active,
       #footer input[type="button"]:hover:active,
@@ -2310,13 +2310,13 @@ ul.icons {
     border-color: #ce1b28;
     box-shadow: 0 0 0 1px #ce1b28; }
   #footer ::-webkit-input-placeholder {
-    color: rgba(255, 255, 255, 0.4) !important; }
+    color: black; }
   #footer :-moz-placeholder {
-    color: rgba(255, 255, 255, 0.4) !important; }
+    color:black ; }
   #footer ::-moz-placeholder {
-    color: rgba(255, 255, 255, 0.4) !important; }
+    color: black ; }
   #footer :-ms-input-placeholder {
-    color: rgba(255, 255, 255, 0.4) !important; }
+    color:black ; }
   #footer ul.alt li {
     border-top-color: rgba(255, 255, 255, 0.25); }
   #footer table tbody tr {
@@ -2357,7 +2357,7 @@ ul.icons {
       #footer .content section:last-child {
         padding-left: 4rem; }
   #footer .copyright {
-    border-top: 1px solid;
+    
     font-size: 0.8rem;
     opacity: 0.5;
     padding: 2rem 0;
